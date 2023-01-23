@@ -1,0 +1,98 @@
+Differences between document and window objects
+
+DOCUMENT OBJECT:
+                It represent any HTML document(or)web page loaded browser
+                It is loaded inside the window 
+                It is the object of window property
+                All the tags elements with attribute in HTML are part of document
+                logically:
+                  Document:{
+                  properties}
+                EX: Document title will return the title of the document
+     
+PROPERTIES OF DOCUMENT:
+                  activeElement
+                  body
+                  baseURI
+                  cookie
+                  charset
+                  defaultview
+                  designmode
+                  domain
+                  doctype
+                  URL
+                  fullscreen element
+                  title
+                  head
+                  links
+                  lastmodified
+                  images
+                  implementation
+                  readystate
+                  referrer
+                  scripts
+                  stricterrorchecking
+METHODES OF DOCUMENTS: 
+   sytax:
+         document.method_name;
+          
+          addeentlistener
+          adoptnode
+          close
+          creatattribute
+          createomment
+          creatdocumentfragment
+          createlement
+          createvent
+          createtmode
+          execcommand
+          fullscreenenabled
+          getelementsbyclassname
+  This all the commonly used methods
+
+WINDOW OBJECT:
+           It is the topmost object of the DOM hierarchy
+           It represent the browser
+           window or frame that display contents webpage
+           It is very first object that is loaded in the browser
+           It is the object of the browser
+           Global object function and variables of javascript are members of widow object
+           EX:
+             window document title will return that of document 
+
+PROPERTIES OF WINDOW:
+                    closed
+                    console
+                    defaultsatus
+                    controllers
+                    custoelements
+                    crypto
+                    devicepielratio
+                    document
+                    dommatrix
+                    frames
+                    status
+                    top
+                    toolbar
+                    opener
+                    sreen
+                    self
+METHODS OF WINDOW:
+                 alert
+                 atob
+                 blur
+                 btoa
+                 clearintervl
+                 cleartimeout
+                 close
+                 confirm
+                 focus
+                 getcomputedstyle
+                 getselection
+                 matchmedia
+                 open
+                 moveby
+                 moveto
+                 scrollto
+                 settimeout
+                 stop
